@@ -1,0 +1,30 @@
+{
+  "name": "tieste/phalcon-extjs",
+  "type": "library",
+  "description": "Extjs cms platform based on Phalcon framework",
+  "keywords": ["phalcon", "extjs", "cms"],
+  "homepage": "https://bitbucket.org/tieste/phalconextjs.git",
+  "license": "MIT",
+  "repositories": [
+    { "type": "vcs", "url": "http://bitbucket.org/tieste/phalconcore.git" }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "ext-phalcon": ">=2.0.3",
+    "tieste/phalcon-core": "0.14.9"
+  },
+  "authors": [
+    {
+      "name": "Artem Onyshchenko",
+      "email": "temafey@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-0": {
+      "ExtjsCms": "lib/",
+      "ExtjsCms\\Test": "test/lib/"
+    }
+  }
+}
+
